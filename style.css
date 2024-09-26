@@ -1,0 +1,310 @@
+
+
+:root{
+    --border-color:rgba(0, 0, 0, .125);
+    --background-color: #0d1224;
+    --font-color:#8244ff;
+    --font-size-1:14px;
+    --font-size-2:16px;
+    --font-size-3:18px;
+    --font-size-4:24px;
+    --font-size-5:30px;
+    --font-weight-1:300;
+    --font-weignt-2:400;
+    --font-weight-3:500;
+    --font-weight-4:600;
+    --font-family: poppins sans-serif;
+    --white-font:#fff;
+    --gray-font:#67748e;
+    --box-shadow: 0 0 5px #905dfd80;
+}
+
+.section{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+*{
+    font-family: mon;
+}
+
+body {
+    background-color: #0d1224 ;
+}
+
+
+.header-section{
+    
+    background-image: url(https://captainbinary.com/build/assets/gradient-desktop-b03ebaa2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+    
+   }
+    
+
+
+.header-logo-section img{
+    width: 200px;
+}
+.menu-section{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 70px;
+    
+}
+.menu-section a{
+    text-decoration:none ;
+    color: white;
+  
+    
+}
+.banner-section{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text{
+    
+    height: 350px;
+    display: flex;
+    align-items: center;
+
+    
+}
+.banner-text p{
+    color: #fff;
+    width: 80%;
+    
+  font-size: 25px;
+  
+  
+    
+}
+.banner-text p span{
+    color: #16f8b6;
+}
+.banner-text  span .text-2{ 
+    color: #f926ae !important;
+}
+.facebook button{
+    padding: 10px 30px;
+    background-color: transparent;
+    color: #8244ff;
+    border: 1px solid #8244ff;
+}
+
+.service {
+    
+    margin: 0 5px 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    box-shadow: 0 0 3px #905dfd80!important;
+   
+    
+
+}
+.service img{
+    width: 50px;
+}
+
+
+.service h2 {
+    color: #06884b;
+    font-size: var(--font-size-4);
+}
+
+.service p{
+    font-size: var(--font-size-1);
+    color: #fff;
+}
+.card-header-text{
+    text-align: center;
+}
+.card-header-text h2{
+    text-align: center;
+    color: #8244ff;
+    font-size: var(--font-size-4);
+}
+.card{
+    box-shadow: var(--box-shadow);
+    border: none;
+}
+.card-header-text p{
+    color: var(--gray-font);
+}
+.card-body{
+    background-color: var(--background-color);
+   
+}
+.card-title{
+    color: var(--font-color);
+    font-size: var(--font-size-4);
+}
+.card-text{
+    color: var(--white-font);
+    font-size: var(--font-size-1);}
+.testimonial-image{
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.testimonial-image img{
+    width: 100%;
+     }
+.testimonial-image-text {
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-image-text p{
+    margin-top: 50px;
+    color: var(--white-font);
+    font-size: var(--font-size-1);
+}
+
+.form-section-heading h2{
+    font-size: var(--font-size-4);
+    color: var(--font-color);
+}
+.form-section-heading{
+    box-shadow: var(--box-shadow);
+    padding: 60px;
+}
+     
+.btn-grad {
+    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+    
+    padding: 10px 0px;
+    text-align: center;
+    
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow:var(--box-shadow);
+    border-radius: 5px;
+    
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .form-section-image-text h2{
+    font-size: var(--font-size-3);
+    color: var(--font-color);
+
+  }
+  .form-section-image-text p{
+    font-size: var(--font-size-1);
+    color: var(--white-font);
+
+  }
+  .form-section-image-1 img{ 
+    width: 50px;
+  }
+  .form-section-image-text{}
+  .form-section-image-1{
+    display: flex;
+    box-shadow: var(--box-shadow);
+    justify-content: space-evenly;
+  }
+ .form-section-image {
+    
+
+ }
+ .form-section-main-image{
+    height: 300px;
+    width: 100%;
+ }
+.footer-section{
+    border-top: 1px solid var(--font-color);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.form-section  input[type=text] {
+   
+    box-sizing: border-box;
+    border: none;
+    background-color: var(--background-color);
+    color: white;
+box-shadow: var(--box-shadow);}
+
+.form-section  input[type=tel] {
+   
+    box-sizing: border-box;
+    border: none;
+    background-color: var(--background-color);
+    color: white;
+    box-shadow: var(--box-shadow);}
+    .form-section  input[type=gmail] {
+        
+        box-sizing: border-box;
+        border: none;
+        background-color: var(--background-color);
+        
+        box-shadow: var(--box-shadow);}
+
+
+        .form-section  textarea  {
+
+            box-sizing: border-box;
+            border: none;
+            background-color: var(--background-color);
+            
+            box-shadow: var(--box-shadow);
+        }
+        
+        span.text-2 {
+            color: red !important;
+        }
+
+
+
+
+
+
+ .footer-logo img{
+    width: 200px;
+ }
+
+ .footer-menu {}
+ .footer-menu ul{
+    
+ }
+ .footer-menu li{
+    display: block !important;
+ }
+ .footer-menu li a{
+    text-decoration: none;
+    color: var(--white-font);
+    display: block;
+ }
+ .footer-social-icon i{
+    color: var(--white-font);
+    font-size: var(--font-size-3);
+ }
+
+
+
+
+
+
+
+
+
+
+
